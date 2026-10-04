@@ -1,0 +1,110 @@
+header{
+    align-items: center;
+    display: flex;
+    padding: 5px 15px;
+    position: sticky;
+    background-color:#B6252A;
+    font-family: sans-serif;
+    color: #FAFAFA;
+    outline: auto;
+    outline-color: black;  
+    padding: 1rem;
+}
+
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+h2{
+    @media(orientation: portrait){
+        text-align: center;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 10px;
+    @media(orientation: portrait){
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.top_nav{
+    background-color: #55565B;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.top_nav a{
+    color: #FAFAFA;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: flex;
+    font-weight: bold;
+}
+
+.top_nav a:hover{
+    background-color: #ffffff2b;
+}
+
+.buttom_nav{
+    display: flex;
+    justify-content: center;
+}
+
+.buttom_nav a:hover{
+    background-color: #ffffff2b;
+}
+
+.foto{
+    display: flex;
+    justify-content: flex-start;
+    @media (orientation: portrait) {
+        justify-content: center;
+        justify-items: center;
+    }
+}
+
+.tentang-saya{
+    display: flex;
+    @media (orientation: portrait) {
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+}
+
+.paragraph_content{
+    padding: 0px 10px;
+}
+
+th{
+    background-color: #55565B;
+    color: #FAFAFA;
+}
+tr{
+    background-color: #959597;
+    color: #FAFAFA;
+}
+
+
+
+footer{
+    background-color: #B6252A;
+    color: #FAFAFA;
+    padding: 5px 15px;
+    outline: auto;
+    outline-color: black;
+    padding: 1rem;
+    font-family: monospace;
+}
