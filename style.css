@@ -20,6 +20,7 @@ body{
     min-height: 100vh;
     font-family: sans-serif;
 }
+
 h2{
     @media(orientation: portrait){
         text-align: center;
@@ -35,6 +36,26 @@ main{
         align-items: center;
         justify-content: space-around;
     }
+}
+
+th{
+    background-color: #55565B;
+    color: #FAFAFA;
+}
+
+tr{
+    background-color: #959597;
+    color: #FAFAFA;
+}
+
+footer{
+    background-color: #B6252A;
+    color: #FAFAFA;
+    padding: 5px 15px;
+    outline: auto;
+    outline-color: black;
+    padding: 1rem;
+    font-family: monospace;
 }
 
 .top_nav{
@@ -88,23 +109,6 @@ main{
     padding: 0px 10px;
 }
 
-th{
-    background-color: #55565B;
-    color: #FAFAFA;
-}
-tr{
-    background-color: #959597;
-    color: #FAFAFA;
-}
-
-
-
-footer{
-    background-color: #B6252A;
-    color: #FAFAFA;
-    padding: 5px 15px;
-    outline: auto;
-    outline-color: black;
-    padding: 1rem;
-    font-family: monospace;
+.formulir{
+    text-align: center;
 }
